@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Ysabeau+SC:wght@600&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    scroll-behavior: smooth;
+    
+}
+
+h1 {
+    color: #9c00ff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    text-align: center;
+    filter: drop-shadow(2px 2px 2px rgba(250, 100, 150, 0.3));
+}
+#Home {
+    background-image: url(DSC00018.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.menu {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    text-transform: uppercase;
+    font-family: 'Ysabeau SC', sans-serif;
+    font-weight: bold;
+    font-weight: 1200;
+}
+
+.menu li {
+    width: 100%;
+    text-align: center;
+}
+
+.menu li:is(:not(:last-child)) {
+border-right: 2px solid cadetblue;
+}
+
+a {
+    text-decoration: none;
+    color: cadetblue;
+}
+
+nav {
+    background-color: rgba(150, 155, 255, 0.2);
+    padding: 5px;
+    border-bottom: 1px solid cadetblue;
+    border-top: 1px solid cadetblue;
+}
+
+#biografia {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: cadetblue;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 1000;
+}
+
+#biografia img {
+    width: 275px;
+}
+
+section {
+    height: 100vh
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+}
+#About-me {
+    background: url("bio background.png");
+    display: flex;
+    align-items: center;
+}
+#foto2 {
+    display: flex;
+    justify-content: center;
+}
+#Contact {
+    background: url("ContactFoto.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Montserrat', sans-serif;
+    color: cadetblue;
+    font-weight: 1000;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 7px;
+}
+
+#Mensajito {
+    display: flex;
+}
+
+input{
+    background: linear-gradient(rgb(57, 57, 57) 0%, rgb(43, 0, 43) 150%);
+    border: 2px solid cadetblue;
+    margin-left: 5px;
+    outline: none;
+    caret-color: aqua;
+    padding: 1px;
+    color: rgb(241, 195, 255);
+}
+textarea {
+    background: linear-gradient(rgb(56, 56, 56) 0%, rgb(43, 0, 43) 120%);
+    border: 2px solid cadetblue;
+    resize: none;
+    margin-left: 5px;
+    outline: none;
+    caret-color: aqua;
+    padding: 1px;
+    color: rgb(241, 195, 255);
+}
+
+#Socials {
+    background: url(SocialsFoto.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#SCont {
+    display: flex;
+    gap: 20px;
+}
+.LogosSocials {
+    height: 75px;
+    filter: drop-shadow(2px 2px 0 rgb(195, 0, 255) );
+}
